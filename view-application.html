@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>HireHub - View Application</title>
+
 <style>
     * { margin:0; padding:0; box-sizing:border-box; font-family:Poppins,sans-serif; }
     body { background:#f5f6fa; }
@@ -18,8 +19,13 @@
     }
     .navbar h2 { font-size:22px; }
     .navbar button {
-        background:white; color:#0a66c2; border:none;
-        padding:8px 16px; border-radius:6px; cursor:pointer; font-weight:600;
+        background:white; 
+        color:#0a66c2; 
+        border:none;
+        padding:8px 16px; 
+        border-radius:6px; 
+        cursor:pointer; 
+        font-weight:600;
     }
 
     .container {
@@ -31,13 +37,46 @@
         padding:20px;
     }
 
-    h3 { color:#0a66c2; margin-bottom:15px; }
+    h3 { 
+        color:#0a66c2; 
+        margin-bottom:15px; 
+        font-size:22px;
+    }
 
-    .candidate-info { display:grid; grid-template-columns:1fr 1fr; gap:15px; }
+    .candidate-info { 
+        display:grid; 
+        grid-template-columns:1fr 1fr; 
+        gap:15px; 
+    }
     .candidate-info div { margin-bottom:10px; }
-    .candidate-info label { font-weight:600; display:block; margin-bottom:5px; color:#333; }
+    .candidate-info label { 
+        font-weight:600; 
+        display:block; 
+        margin-bottom:5px; 
+        color:#333; 
+    }
     .candidate-info p { color:#555; }
 
+    /* View Resume button */
+    .resume-btn {
+        background:#0a66c2;
+        color:white;
+        padding:10px 20px;
+        border:none;
+        border-radius:6px;
+        cursor:pointer;
+        font-weight:600;
+        font-size:15px;
+        display:inline-block;
+        margin-top:5px;
+        text-align:center;
+        transition:0.3s;
+    }
+    .resume-btn:hover {
+        background:#084a96;
+    }
+
+    /* Buttons */
     .buttons { margin-top:20px; }
     .buttons button {
         padding:10px 18px;
@@ -57,6 +96,7 @@
         .candidate-info { grid-template-columns:1fr; }
     }
 </style>
+
 </head>
 <body>
 
@@ -69,38 +109,50 @@
     <h3>Candidate Details</h3>
 
     <div class="candidate-info">
+
         <div>
             <label>Name</label>
-            <p>Jane Doe</p>
+            <p>Rishi Ghosh</p>
         </div>
+
         <div>
             <label>Email</label>
-            <p>jane.doe@example.com</p>
+            <p>rishighosh123@gmail.com</p>
         </div>
+
         <div>
             <label>Phone</label>
             <p>+91 9876543210</p>
         </div>
+
         <div>
             <label>Applied For</label>
             <p>Frontend Developer</p>
         </div>
+
         <div>
             <label>Experience</label>
             <p>2 years</p>
         </div>
+
         <div>
             <label>Skills</label>
             <p>HTML, CSS, JavaScript, React</p>
         </div>
+
+    
         <div>
             <label>Resume</label>
-            <p><a href="resumes/jane_doe_resume.pdf" target="_blank">View Resume</a></p>
+           
+                View Resume
+            </button>
         </div>
+
         <div>
             <label>Application Status</label>
             <p>Applied</p>
         </div>
+
     </div>
 
     <div class="buttons">
