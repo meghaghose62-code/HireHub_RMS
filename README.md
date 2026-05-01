@@ -2,8 +2,6 @@
 
 > A full-featured Recruitment Management System to streamline hiring, job posting, applications, interviews, and reports — all in one place.
 
-🔗 **Live Demo:** [https://hirehub-rms.netlify.app](https://hirehub-rms.netlify.app)
-
 ---
 
 ## 📸 Preview
